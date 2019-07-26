@@ -2,17 +2,14 @@
   background-color: #faebd7;
   border: 2px solid #999;
   line-height: 34px;
-  width: 90px;
-  height: 90px;
-  margin-right: -1px;
-  margin-top: -1px;
-  font-size: 70px;
+  width: 100px;
+  height: 100px;
+  
+  font-size: 60px;
   text-align: center;
   font-weight: bold;
-  padding: 0;
- 
-
-
+  
+  font-family: 'Bungee Shade', cursive;
 }
 .App-header{
   font-size: 70px;
@@ -34,4 +31,10 @@ body{
   font-family: 'Bungee Shade', cursive;
   background-color: rgb(209, 243, 142);
   font-size: 20px;
+}
+.container{
+ display: grid;
+ grid-template-rows:100px 100px 100px;
+ grid-template-columns:100px 100px 100px;
+ grid-template-areas: "board-row-1" "board-row-2" "board-row-3"
 }
