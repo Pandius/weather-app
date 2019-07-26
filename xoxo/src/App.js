@@ -10,18 +10,14 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        {/* <header className="App-header">
+        <header className="App-header">
           <h1>X vs O</h1>
-        </header> */}
+        </header>
         <div className="App-board">
           <Board />
         </div>
-        <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
-        </div>
         <div>
-          <button onClick={refreshPage}>Click to reload!</button>
+          <button className="refresh" onClick={refreshPage}>Click to reload!</button>
         </div>
 
       </div>

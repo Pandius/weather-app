@@ -2,19 +2,36 @@
   background-color: #faebd7;
   border: 2px solid #999;
   line-height: 34px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin-right: -1px;
   margin-top: -1px;
-  font-size: 100px;
+  font-size: 70px;
   text-align: center;
   font-weight: bold;
   padding: 0;
+ 
 
 
+}
+.App-header{
+  font-size: 70px;
+  font-family: 'Bungee Shade', cursive;
 
-
-
-
-
+text-align: center;
+}
+body{
+  background-color: rgb(233, 191, 7);
+  justify-content: center;
+  display: flex;
+ 
+}
+.status{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 30px
+}
+.refresh{
+  font-family: 'Bungee Shade', cursive;
+  background-color: rgb(209, 243, 142);
+  font-size: 20px;
 }
