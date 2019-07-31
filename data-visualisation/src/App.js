@@ -41,7 +41,7 @@ export default class App extends React.Component {
     axios
       .get(
         `http://api.openweathermap.org/data/2.5/weather?q=${
-          this.state.city
+        this.state.city
         },uk&APPID=${API_key}&units=metric`
       )
       .then(({ data }) =>
@@ -63,7 +63,7 @@ export default class App extends React.Component {
           temperature={this.state.temperature}
           weather={this.state.weather}
         />
-        <Chart />
+        <Chart cityName={this.state.city} />
       </div>
     );
   }
